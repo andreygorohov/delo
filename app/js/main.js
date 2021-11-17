@@ -1,0 +1,5 @@
+@@include('start.js')
+@@include('libs/jquery.spincrement.min.js')
+@@include('functions.js')
+@@include('scripts.js')
+@@include('end.js')

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["main.js"],"sourcesContent":["@@include('start.js')\r\n@@include('libs/jquery.spincrement.min.js')\r\n@@include('functions.js')\r\n@@include('scripts.js')\r\n@@include('end.js')\r\n"],"file":"main.js"}

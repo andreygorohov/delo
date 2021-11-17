@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html')
+
+<body id="body">
+    <div class="wrapper">
+        @@include('_header.html',{
+        "link": "2"
+        })
+
+        <main class="page">
+            <section class="clients">
+                <div class="clients__head about-head">
+                    <div class='about-head__content _container'>
+                        <h1 class="about-head__title _title"><span>Клиентам</span></h1>
+                    </div>
+                    <div class="about-head__bg _ibg">
+                        <img src="img/clients/bg.jpg" alt="">
+                    </div>
+                </div>
+                <div class='clients__content _container'>
+                    <div class="clients__tabs tabs">
+                        <div class="clients__tabs-row tabs__row">
+                            <div class="clients__tabs-row-item tabs__row-item">буксирные операции</div>
+                            <div class="clients__tabs-row-item tabs__row-item">агентирование</div>
+                            <div class="clients__tabs-row-item tabs__row-item bunk">бункеровка</div>
+                        </div>
+
+                        <div class="clients__tabs-content tabs__content">
+                            <div class="clients__block tabs__content-block">
+                                <div class="clients__mob-title-wrap">
+                                    <div class="clients__mob-title">
+                                        буксирные операции
+                                    </div>
+                                </div>
+                                <div class="clients-form">
+                                    <form action="#">
+                                        <h3 class="clients-form__title">Заявка на оформление услуги</h3>
+                                        <div class="clients-form__input">
+                                            <div class="clients-form__input-label">Название компании*</div>
+                                            <input type="text">
+                                        </div>
+                                        <div class="clients-form__radios">
+                                            <div class="clients-form__input-label">Услуга*</div>
+                                            <div class="clients-form__radios-block">
+                                                <label class="radio-label">
+                                                    <input class="radio" type="radio" name="name" value="1">
+                                                    <span class="radio-style"></span>
+
+                                                    <svg class="form-icon">
+                                                        <use xlink:href="img/sprite.svg#form01"></use>
+                                                    </svg>
+                                                    <span class="radio-text">Буксовка</span>
+                                                </label>
+                                                <label class="radio-label">
+                                                    <input class="radio" type="radio" name="name" value="2">
+                                                    <span class="radio-style"></span>
+
+                                                    <svg class="form-icon">
+                                                        <use xlink:href="img/sprite.svg#form02"></use>
+                                                    </svg>
+                                                    <span class="radio-text">Бункеровка</span>
+                                                </label>
+                                                <label class="radio-label">
+                                                    <input class="radio" type="radio" name="name" value="3">
+                                                    <span class="radio-style"></span>
+                                                    <svg class="form-icon form-icon__witoutstroke">
+                                                        <use xlink:href="img/sprite.svg#hand_icon-01"></use>
+                                                    </svg>
+                                                    <span class="radio-text">Агентирование</span>
+                                                </label>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="clients-form__textarea">
+                                            <div class="clients-form__input-label"> Описание необходимой Вам
+                                                услуги</div>
+                                            <textarea name="textarea"></textarea>
+                                        </div>
+                                        <div class="clients-form__input">
+                                            <div class="clients-form__input-label">Контактное лицо*</div>
+                                            <input type="text">
+                                        </div>
+                                        <div class="clients-form__input">
+                                            <div class="clients-form__input-label">Телефон*</div>
+                                            <input type="tel">
+                                        </div>
+                                        <div class="clients-form__captcha">
+                                            <div class="clients-form__input-label">Введите слово с картинки*
+                                            </div>
+                                            <div class="clients-form__captcha-block">
+                                                <div class="clients-form__captcha-icon">
+                                                    <img src="img/clients/test-bg.jpg" alt="" />
+                                                </div>
+                                                <input type="text">
+                                            </div>
+
+                                        </div>
+                                        <button type="submit" class="form__button">Отправить <span><svg>
+                                                    <use xlink:href="img/sprite.svg#down"></use>
+                                                </svg></span></button>
+                                    </form>
+                                </div>
+                                <div class="connect-block">
+                                    <div class="connect-block__item">
+                                        <div class="connect-block__title">Обратная связь </div>
+                                        <a href="#" class="connect-block__btn">
+                                            Перейти
+                                            <span class="connect-block__icon">
+                                                <!-- <img src="img/icons/next.svg" alt="" /> -->
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="connect-block__item">
+                                        <div class="connect-block__title">Контакты </div>
+                                        <a href="#" class="connect-block__btn">
+                                            Перейти
+                                            <span class="connect-block__icon">
+                                                <!-- <img src="img/icons/next.svg" alt="" /> -->
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="clients__block tabs__content-block">
+                                <div class="clients__mob-title-wrap">
+                                    <div class="clients__mob-title">
+                                        агентирование
+                                    </div>
+                                </div>
+                                <div class="services">
+                                    <div class="services__text">
+                                        Агентское направление ведет свою деятельность с 1993 года и на сегодняшний день
+                                        в области агентского обслуживания судов в порту Новороссийск зарекомендовало
+                                        себя одним из лучших. Многолетний опыт работы в сфере агентирования позволяет
+                                        судить о надежности нашей компании и высокой квалификации персонала.
+                                        Индивидуальный и гибкий подход к каждому клиенту и расширение спектра услуг
+                                        являются нашими приоритетными задачами. Агентство оказывает услуги путем
+                                        минимизации проблем клиента, связанными с обработкой судов в Новороссийске.
+                                        Непрерывный анализ сводных данных грузовых терминалов порта Новороссийск
+                                        позволяет предоставить фрахтователям и судовладельцам оперативную информацию о
+                                        ситуации в порту, подтвержденных позициях и подходе судов, количестве грузов,
+                                        выданных поручениях и т. д.
+                                    </div>
+                                    <h2 class="services__title _title">Область наших услуг:</h2>
+                                    <ul class="services__list">
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/01.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Быстрая постановка судна к причалу
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/02.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Надзор за грузом
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/03.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Договоренности с лоцманскими, буксирами, др. службами
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/04.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Смена экипажа, репатриация команды, медицинское обслуживание
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/05.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Организация ускорения погрузочно-разгрузочных операций
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/icons/hand_icon-02.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Организация снабжения бункером, смазочными маслами, пресной водой,
+                                                судовыми запасами, продуктами, материалами, запчастями
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/07.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Услуги суперкарго
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/08.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Снятие мусора, сточных вод
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/09.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Быстрая и надежная информация относительно готовности причала и груза до
+                                                подхода судна
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/10.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Организация ремонтных работ, инспекции, сюрвейерских осмотров и
+                                                сертификации
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/11.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Своевременное обновление информации о судах, наличии груза, —
+                                                расположении судов, состоянии причала и терминала
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/12.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Организация буксировки судов и водолазного осмотра
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/icons/hand_icon-03.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Предоставление информации о свободных позициях в порту
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/14.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Организация ускорения оформления Port clearance и отхода судна, включая
+                                                расчет остойчивости судна
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="services__icon">
+                                                <img src="img/clients/icons/15.svg" alt="" />
+                                            </span>
+                                            <div class="services__list-text">
+                                                Сервисная Компания Дело имеет собственный радиоканал
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="connect-block">
+                                        <div class="connect-block__item">
+                                            <div class="connect-block__title">Обратная связь </div>
+                                            <a href="#" class="connect-block__btn">
+                                                Перейти
+                                                <span class="connect-block__icon">
+                                                    <!-- <img src="img/icons/next.svg" alt="" /> -->
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="connect-block__item">
+                                            <div class="connect-block__title">Контакты </div>
+                                            <a href="#" class="connect-block__btn">
+                                                Перейти
+                                                <span class="connect-block__icon">
+                                                    <!-- <img src="img/icons/next.svg" alt="" /> -->
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clients__block tabs__content-block">
+                                <div class="clients__mob-title-wrap">
+                                    <div class="clients__mob-title">
+                                        бункеровка
+                                    </div>
+                                </div>
+                                <div class="bunker">
+                                    <div class="bunker__block">
+                                        <div class="bunker__photo-wrap">
+                                            <div class="bunker__photo _ibg">
+                                                <img src="img/bunker/photo.jpg" alt="" />
+                                            </div>
+                                        </div>
+
+                                        <div class="bunker__year">2005</div>
+                                        <div class="bunker__title">
+                                            ООО СК «Дело» поставляет бункерное топливо в порту
+                                            Новороссийск с 2005 года
+                                        </div>
+                                    </div>
+                                    <div class="bunker__text">
+                                        <p>
+                                            Благодаря нашему опыту и профессиональной, целеустремленной команде мы
+                                            всегда стремимся найти оптимальное решение для вас с учетом всех аспектов.
+                                        </p>
+                                        <span>ISO 8217–2017</span>
+                                        <p>
+                                            Наша компания готова 24 часа, 7 дней в неделю снабдить Ваше судно
+                                            качественным топливом в соответствии со стандартом ISO 8217–2017.
+                                        </p>
+                                        <p>
+                                            Качество и количество поставляемого топлива на всех этапах контролируется
+                                            независимой лабораторией АО «Бюро Веритас Русь».
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="connect-block">
+                                    <div class="connect-block__item">
+                                        <div class="connect-block__title">Обратная связь </div>
+                                        <a href="#" class="connect-block__btn">
+                                            Перейти
+                                            <span class="connect-block__icon">
+                                                <!-- <img src="img/icons/next.svg" alt="" /> -->
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="connect-block__item">
+                                        <div class="connect-block__title">Контакты </div>
+                                        <a href="#" class="connect-block__btn">
+                                            Перейти
+                                            <span class="connect-block__icon">
+                                                <!-- <img src="img/icons/next.svg" alt="" /> -->
+                                            </span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        @@include('_without-form.html',{})
+    </div>
+    @@include('_js.html',{})
+</body>
+
+</html>

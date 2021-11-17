@@ -1,0 +1,13 @@
+@mixin font-face($font-family, $url, $weight) {
+    @font-face {
+        font-family: "#{$font-family}";
+        src: url("../fonts/#{$url}.woff2") format("woff2"), url("../#{$url}.woff") format("woff");
+        font-weight: #{$weight};
+        font-display: swap;
+        font-style: normal;
+    }
+}
+
+@include font-face("RFDewi-Regular", "RFDewi-Regular", 400);
+@include font-face("RFDewi-Bold", "RFDewi-Bold", 700);
+@include font-face("RFDewi-Light", "RFDewi-Light", 300);
